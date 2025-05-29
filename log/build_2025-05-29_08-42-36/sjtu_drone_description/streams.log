@@ -1,0 +1,3 @@
+[0.407s] Invoking command in '/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description -- -j20 -l20
+[0.461s] [35m[1mConsolidate compiler generated dependencies of target plugin_drone[0m
+[0.508s] [100%] Built target plugin_drone

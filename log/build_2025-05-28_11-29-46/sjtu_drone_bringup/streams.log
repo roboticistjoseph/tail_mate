@@ -1,0 +1,21 @@
+[0.718s] Invoking command in '/home/roboticist/0_Projects/tail_mate/src/sjtu_drone/sjtu_drone_bringup': PYTHONPATH=/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sjtu_drone_bringup build --build-base /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_bringup/build install --record /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data
+[0.871s] running egg_info
+[0.871s] writing ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/PKG-INFO
+[0.871s] writing dependency_links to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/dependency_links.txt
+[0.871s] writing entry points to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/entry_points.txt
+[0.872s] writing requirements to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/requires.txt
+[0.872s] writing top-level names to ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/top_level.txt
+[0.873s] reading manifest file '../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'
+[0.873s] writing manifest file '../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info/SOURCES.txt'
+[0.874s] running build
+[0.874s] running build_py
+[0.874s] running install
+[0.874s] running install_lib
+[0.875s] running install_data
+[0.875s] running install_egg_info
+[0.876s] removing '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[0.876s] Copying ../../../build/sjtu_drone_bringup/sjtu_drone_bringup.egg-info to /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/lib/python3.10/site-packages/sjtu_drone_bringup-0.0.0-py3.10.egg-info
+[0.876s] running install_scripts
+[0.889s] Installing spawn_drone script to /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/lib/sjtu_drone_bringup
+[0.889s] writing list of installed files to '/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_bringup/install.log'
+[0.903s] Invoked command in '/home/roboticist/0_Projects/tail_mate/src/sjtu_drone/sjtu_drone_bringup' returned '0': PYTHONPATH=/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sjtu_drone_bringup build --build-base /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_bringup/build install --record /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data

@@ -1,0 +1,13 @@
+/home/roboticist/0_Projects/tail_mate/build/followme_drone/CMakeFiles/uninstall.dir
+/home/roboticist/0_Projects/tail_mate/build/followme_drone/CMakeFiles/followme_drone_uninstall.dir
+/home/roboticist/0_Projects/tail_mate/build/followme_drone/CMakeFiles/drive_node.dir
+/home/roboticist/0_Projects/tail_mate/build/followme_drone/CMakeFiles/drone_patrol_controller.dir
+/home/roboticist/0_Projects/tail_mate/build/followme_drone/CMakeFiles/tb3_follower.dir
+/home/roboticist/0_Projects/tail_mate/build/followme_drone/CMakeFiles/tb3_nav_node.dir
+/home/roboticist/0_Projects/tail_mate/build/followme_drone/CMakeFiles/test.dir
+/home/roboticist/0_Projects/tail_mate/build/followme_drone/CMakeFiles/edit_cache.dir
+/home/roboticist/0_Projects/tail_mate/build/followme_drone/CMakeFiles/rebuild_cache.dir
+/home/roboticist/0_Projects/tail_mate/build/followme_drone/CMakeFiles/list_install_components.dir
+/home/roboticist/0_Projects/tail_mate/build/followme_drone/CMakeFiles/install.dir
+/home/roboticist/0_Projects/tail_mate/build/followme_drone/CMakeFiles/install/local.dir
+/home/roboticist/0_Projects/tail_mate/build/followme_drone/CMakeFiles/install/strip.dir

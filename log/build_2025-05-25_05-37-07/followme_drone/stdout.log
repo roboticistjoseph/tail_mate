@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target tb3_nav_node[0m
+[ 33%] Built target tb3_follower
+[ 50%] [32mBuilding CXX object CMakeFiles/tb3_nav_node.dir/scripts/multi_waypoints.cpp.o[0m
+[ 83%] Built target drive_node
+[100%] [32m[1mLinking CXX executable tb3_nav_node[0m
+[100%] Built target tb3_nav_node
+-- Install configuration: ""
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/drive_node
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/tb3_follower
+-- Installing: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/tb3_nav_node
+-- Set runtime path of "/home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/tb3_nav_node" to ""
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/single_goal_nav.py

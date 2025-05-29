@@ -1,0 +1,4 @@
+source;share/followme_drone/local_setup.bash
+source;share/followme_drone/local_setup.dsv
+source;share/followme_drone/local_setup.sh
+source;share/followme_drone/local_setup.zsh

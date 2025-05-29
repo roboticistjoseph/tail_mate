@@ -1,0 +1,14 @@
+[0.026s] Invoking command in '/home/roboticist/0_Projects/tail_mate/build/followme_drone': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/followme_drone -- -j20 -l20
+[0.500s] [ 25%] Built target tb3_follower
+[0.500s] [ 37%] [32mBuilding CXX object CMakeFiles/drone_patrol_controller.dir/scripts/drone_patrol_controller.cpp.o[0m
+[0.500s] [ 62%] Built target drive_node
+[0.500s] [ 87%] Built target tb3_nav_node
+[0.501s] In file included from [01m[K/home/roboticist/0_Projects/tail_mate/src/followme_drone/scripts/drone_patrol_controller.cpp:1[m[K:
+[0.501s] [01m[K/home/roboticist/0_Projects/tail_mate/src/followme_drone/scripts/../include/drone_patrol_controller.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Kgazebo_msgs/srv/spawn_entity.h: No such file or directory
+[0.501s]    11 | #include [01;31m[K"gazebo_msgs/srv/spawn_entity.h"[m[K
+[0.501s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.501s] compilation terminated.
+[0.501s] gmake[2]: *** [CMakeFiles/drone_patrol_controller.dir/build.make:76: CMakeFiles/drone_patrol_controller.dir/scripts/drone_patrol_controller.cpp.o] Error 1
+[0.501s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/drone_patrol_controller.dir/all] Error 2
+[0.501s] gmake: *** [Makefile:146: all] Error 2
+[0.503s] Invoked command in '/home/roboticist/0_Projects/tail_mate/build/followme_drone' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/followme_drone -- -j20 -l20

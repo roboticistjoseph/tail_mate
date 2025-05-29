@@ -1,0 +1,8 @@
+[submodule "src/sjtu_drone"]
+	path = src/sjtu_drone
+	url = https://github.com/NovoG93/sjtu_drone.git
+	branch = ros2
+[submodule "src/turtlebot3_simulations"]
+	path = src/turtlebot3_simulations
+	url = https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git
+	branch = humble

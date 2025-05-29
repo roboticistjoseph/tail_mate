@@ -1,0 +1,25 @@
+[100%] Built target followme_drone_node
+-- Install configuration: ""
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/followme_drone_node
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch
+-- Installing: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch/followme_drone.launch.py
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch/spy_drone.launch.py
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch/p1_b_tb3_drone_gazebo.launch.py
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//worlds
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//worlds/empty.world
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//worlds/office_cpr.world
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/ament_index/resource_index/package_run_dependencies/followme_drone
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/ament_index/resource_index/parent_prefix_path/followme_drone
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/environment/ament_prefix_path.sh
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/environment/path.sh
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/environment/path.dsv
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/local_setup.bash
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/local_setup.sh
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/local_setup.zsh
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/local_setup.dsv
+-- Installing: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/package.dsv
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/ament_index/resource_index/packages/followme_drone
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/cmake/followme_droneConfig.cmake
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/cmake/followme_droneConfig-version.cmake
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/package.xml

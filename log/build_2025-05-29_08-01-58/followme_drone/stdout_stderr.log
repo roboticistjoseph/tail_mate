@@ -1,0 +1,87 @@
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+-- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+-- Found gazebo_msgs: 3.9.0 (/opt/ros/humble/share/gazebo_msgs/cmake)
+-- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+-- Found nav2_msgs: 1.1.18 (/opt/ros/humble/share/nav2_msgs/cmake)
+-- Found nav2_util: 1.1.18 (/opt/ros/humble/share/nav2_util/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/roboticist/0_Projects/tail_mate/build/followme_drone
+[35m[1mConsolidate compiler generated dependencies of target tb3_follower[0m
+[35m[1mConsolidate compiler generated dependencies of target drive_node[0m
+[35m[1mConsolidate compiler generated dependencies of target tb3_nav_node[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/drone_patrol_controller.dir/scripts/drone_patrol_controller.cpp.o[0m
+[ 37%] Built target tb3_follower
+[ 62%] Built target drive_node
+[ 87%] Built target tb3_nav_node
+[100%] [32m[1mLinking CXX executable drone_patrol_controller[0m
+[100%] Built target drone_patrol_controller
+-- Install configuration: ""
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/drive_node
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/tb3_follower
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/tb3_nav_node
+-- Installing: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/drone_patrol_controller
+-- Set runtime path of "/home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/drone_patrol_controller" to ""
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/single_goal_nav.py
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/multi_waypointspython.py
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//config
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//config/turtlebot3_lds_2d.lua
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch
+-- Installing: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch/drone_patrol.launch.py
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch/mapping.launch.py
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch/followme_drone.launch.py
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch/navigation.launch.py
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch/spy_drone.launch.py
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch/p1_b_tb3_drone_gazebo.launch.py
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch/navigation.launch copy.py
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//maps
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//maps/tb3_map.yaml
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//maps/tb3_map.pgm
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//nav2
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//nav2/tb3_nav2_params.yaml
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//rviz
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//rviz/navigation.rviz
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//rviz/mapping.rviz
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//worlds
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//worlds/laboratory.world
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//worlds/museum.world
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//worlds/empty.world
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//worlds/office_cpr.world
+-- Installing: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/ament_index/resource_index/package_run_dependencies/followme_drone
+-- Installing: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/ament_index/resource_index/parent_prefix_path/followme_drone
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/environment/ament_prefix_path.sh
+-- Installing: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/environment/path.sh
+-- Installing: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/environment/path.dsv
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/local_setup.bash
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/local_setup.sh
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/local_setup.zsh
+-- Installing: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/local_setup.dsv
+-- Installing: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/package.dsv
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/ament_index/resource_index/packages/followme_drone
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/cmake/followme_droneConfig.cmake
+-- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/cmake/followme_droneConfig-version.cmake
+-- Installing: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/package.xml

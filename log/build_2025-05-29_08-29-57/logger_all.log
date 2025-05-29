@@ -1,0 +1,573 @@
+[0.098s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.099s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x760518e4ac20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x760518e4a020>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x760518e4a020>>, mixin_verb=('build',))
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.284s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.284s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/roboticist/0_Projects/tail_mate'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.285s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['ignore', 'ignore_ament_install']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ignore'
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'ros'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['cmake', 'python']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'cmake'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'python'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extensions ['python_setup_py']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(assets) by extension 'python_setup_py'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/followme_drone) by extensions ['ignore', 'ignore_ament_install']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/followme_drone) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/followme_drone) by extension 'ignore_ament_install'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/followme_drone) by extensions ['colcon_pkg']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/followme_drone) by extension 'colcon_pkg'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/followme_drone) by extensions ['colcon_meta']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/followme_drone) by extension 'colcon_meta'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/followme_drone) by extensions ['ros']
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src/followme_drone) by extension 'ros'
+[0.307s] DEBUG:colcon.colcon_core.package_identification:Package 'src/followme_drone' with type 'ros.ament_cmake' and name 'followme_drone'
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extension 'cmake'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extension 'python'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extensions ['python_setup_py']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone) by extension 'python_setup_py'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extensions ['ignore', 'ignore_ament_install']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extension 'ignore'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extension 'ignore_ament_install'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extensions ['colcon_pkg']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extension 'colcon_pkg'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extensions ['colcon_meta']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extension 'colcon_meta'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extensions ['ros']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extension 'ros'
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extensions ['cmake', 'python']
+[0.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/imgs) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extension 'ignore_ament_install'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extensions ['colcon_pkg']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extension 'colcon_pkg'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extensions ['colcon_meta']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extension 'colcon_meta'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extensions ['ros']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_bringup) by extension 'ros'
+[0.310s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sjtu_drone/sjtu_drone_bringup' with type 'ros.ament_python' and name 'sjtu_drone_bringup'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_control) by extension 'ros'
+[0.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sjtu_drone/sjtu_drone_control' with type 'ros.ament_python' and name 'sjtu_drone_control'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/sjtu_drone/sjtu_drone_description) by extension 'ros'
+[0.312s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sjtu_drone/sjtu_drone_description' with type 'ros.ament_cmake' and name 'sjtu_drone_description'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'ros'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['cmake', 'python']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'cmake'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extensions ['python_setup_py']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations) by extension 'python_setup_py'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[0.314s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.317s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.335s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.337s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/roboticist/0_Projects/tail_mate/install
+[0.339s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 492 installed packages in /opt/ros/humble
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'followme_drone' build argument 'cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'followme_drone' build argument 'cmake_target' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'followme_drone' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'followme_drone' build argument 'cmake_clean_cache' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'followme_drone' build argument 'cmake_clean_first' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'followme_drone' build argument 'cmake_force_configure' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'followme_drone' build argument 'ament_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'followme_drone' build argument 'catkin_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'followme_drone' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.393s] DEBUG:colcon.colcon_core.verb:Building package 'followme_drone' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roboticist/0_Projects/tail_mate/build/followme_drone', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roboticist/0_Projects/tail_mate/install/followme_drone', 'merge_install': False, 'path': '/home/roboticist/0_Projects/tail_mate/src/followme_drone', 'symlink_install': False, 'test_result_base': None}
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_target' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.393s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.393s] DEBUG:colcon.colcon_core.verb:Building package 'sjtu_drone_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup', 'merge_install': False, 'path': '/home/roboticist/0_Projects/tail_mate/src/sjtu_drone/sjtu_drone_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_target' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.394s] DEBUG:colcon.colcon_core.verb:Building package 'sjtu_drone_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control', 'merge_install': False, 'path': '/home/roboticist/0_Projects/tail_mate/src/sjtu_drone/sjtu_drone_control', 'symlink_install': False, 'test_result_base': None}
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_target' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.394s] Level 5:colcon.colcon_core.verb:set package 'sjtu_drone_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.394s] DEBUG:colcon.colcon_core.verb:Building package 'sjtu_drone_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description', 'merge_install': False, 'path': '/home/roboticist/0_Projects/tail_mate/src/sjtu_drone/sjtu_drone_description', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.395s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_fake_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_fake_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node', 'merge_install': False, 'path': '/home/roboticist/0_Projects/tail_mate/src/turtlebot3_simulations/turtlebot3_fake_node', 'symlink_install': False, 'test_result_base': None}
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.395s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/roboticist/0_Projects/tail_mate/src/turtlebot3_simulations/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[0.396s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.396s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations', 'merge_install': False, 'path': '/home/roboticist/0_Projects/tail_mate/src/turtlebot3_simulations/turtlebot3_simulations', 'symlink_install': False, 'test_result_base': None}
+[0.396s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.397s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.397s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/roboticist/0_Projects/tail_mate/src/turtlebot3_simulations/turtlebot3_fake_node' with build type 'ament_cmake'
+[0.397s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roboticist/0_Projects/tail_mate/src/turtlebot3_simulations/turtlebot3_fake_node'
+[0.399s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.404s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/roboticist/0_Projects/tail_mate/src/turtlebot3_simulations/turtlebot3_gazebo' with build type 'ament_cmake'
+[0.404s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roboticist/0_Projects/tail_mate/src/turtlebot3_simulations/turtlebot3_gazebo'
+[0.404s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.408s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/roboticist/0_Projects/tail_mate/src/followme_drone' with build type 'ament_cmake'
+[0.408s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roboticist/0_Projects/tail_mate/src/followme_drone'
+[0.408s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.408s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.412s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/roboticist/0_Projects/tail_mate/src/sjtu_drone/sjtu_drone_bringup' with build type 'ament_python'
+[0.412s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_bringup', 'ament_prefix_path')
+[0.413s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/ament_prefix_path.ps1'
+[0.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/ament_prefix_path.dsv'
+[0.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/ament_prefix_path.sh'
+[0.414s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.414s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.418s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/roboticist/0_Projects/tail_mate/src/sjtu_drone/sjtu_drone_control' with build type 'ament_python'
+[0.418s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_control', 'ament_prefix_path')
+[0.418s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/share/sjtu_drone_control/hook/ament_prefix_path.ps1'
+[0.419s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/share/sjtu_drone_control/hook/ament_prefix_path.dsv'
+[0.419s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/share/sjtu_drone_control/hook/ament_prefix_path.sh'
+[0.420s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.420s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.423s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/roboticist/0_Projects/tail_mate/src/sjtu_drone/sjtu_drone_description' with build type 'ament_cmake'
+[0.424s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roboticist/0_Projects/tail_mate/src/sjtu_drone/sjtu_drone_description'
+[0.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.433s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/turtlebot3_fake_node -- -j20 -l20
+[0.435s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/turtlebot3_gazebo -- -j20 -l20
+[0.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roboticist/0_Projects/tail_mate/build/followme_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/followme_drone -- -j20 -l20
+[0.588s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/roboticist/0_Projects/tail_mate/src/sjtu_drone/sjtu_drone_bringup'
+[0.588s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.588s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.755s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/roboticist/0_Projects/tail_mate/src/sjtu_drone/sjtu_drone_control'
+[0.756s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.756s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description -- -j20 -l20
+[1.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roboticist/0_Projects/tail_mate/src/sjtu_drone/sjtu_drone_control': PYTHONPATH=/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sjtu_drone_control build --build-base /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_control/build install --record /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_control/install.log --single-version-externally-managed install_data
+[1.183s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roboticist/0_Projects/tail_mate/src/sjtu_drone/sjtu_drone_bringup': PYTHONPATH=/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sjtu_drone_bringup build --build-base /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_bringup/build install --record /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data
+[1.459s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roboticist/0_Projects/tail_mate/src/sjtu_drone/sjtu_drone_bringup' returned '0': PYTHONPATH=/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sjtu_drone_bringup build --build-base /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_bringup/build install --record /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_bringup/install.log --single-version-externally-managed install_data
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup' for CMake module files
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup' for CMake config files
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/lib'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/bin'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/lib/pkgconfig/sjtu_drone_bringup.pc'
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/lib/python3.10/site-packages'
+[1.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_bringup', 'pythonpath')
+[1.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath.ps1'
+[1.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath.dsv'
+[1.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/share/sjtu_drone_bringup/hook/pythonpath.sh'
+[1.465s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/bin'
+[1.465s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_bringup)
+[1.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.ps1'
+[1.466s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.dsv'
+[1.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.sh'
+[1.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.bash'
+[1.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/share/sjtu_drone_bringup/package.zsh'
+[1.467s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup/share/colcon-core/packages/sjtu_drone_bringup)
+[1.468s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control' for CMake module files
+[1.469s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control' for CMake config files
+[1.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roboticist/0_Projects/tail_mate/src/sjtu_drone/sjtu_drone_control' returned '0': PYTHONPATH=/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sjtu_drone_control build --build-base /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_control/build install --record /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_control/install.log --single-version-externally-managed install_data
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/lib'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/bin'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/lib/pkgconfig/sjtu_drone_control.pc'
+[1.470s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/lib/python3.10/site-packages'
+[1.470s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_control', 'pythonpath')
+[1.470s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/share/sjtu_drone_control/hook/pythonpath.ps1'
+[1.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/share/sjtu_drone_control/hook/pythonpath.dsv'
+[1.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/share/sjtu_drone_control/hook/pythonpath.sh'
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/bin'
+[1.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_control)
+[1.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/share/sjtu_drone_control/package.ps1'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/share/sjtu_drone_control/package.dsv'
+[1.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/share/sjtu_drone_control/package.sh'
+[1.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/share/sjtu_drone_control/package.bash'
+[1.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/share/sjtu_drone_control/package.zsh'
+[1.473s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control/share/colcon-core/packages/sjtu_drone_control)
+[6.545s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roboticist/0_Projects/tail_mate/build/followme_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/followme_drone -- -j20 -l20
+[6.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roboticist/0_Projects/tail_mate/build/followme_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/followme_drone
+[6.570s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(followme_drone)
+[6.571s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/followme_drone' for CMake module files
+[6.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roboticist/0_Projects/tail_mate/build/followme_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/followme_drone
+[6.572s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/followme_drone' for CMake config files
+[6.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('followme_drone', 'cmake_prefix_path')
+[6.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/hook/cmake_prefix_path.ps1'
+[6.574s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/hook/cmake_prefix_path.dsv'
+[6.575s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/hook/cmake_prefix_path.sh'
+[6.575s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/followme_drone/lib'
+[6.575s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/followme_drone/bin'
+[6.576s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/pkgconfig/followme_drone.pc'
+[6.576s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/python3.10/site-packages'
+[6.576s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/followme_drone/bin'
+[6.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/package.ps1'
+[6.577s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/package.dsv'
+[6.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/package.sh'
+[6.578s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/package.bash'
+[6.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/package.zsh'
+[6.579s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/colcon-core/packages/followme_drone)
+[6.580s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(followme_drone)
+[6.580s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/followme_drone' for CMake module files
+[6.581s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/followme_drone' for CMake config files
+[6.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('followme_drone', 'cmake_prefix_path')
+[6.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/hook/cmake_prefix_path.ps1'
+[6.582s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/hook/cmake_prefix_path.dsv'
+[6.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/hook/cmake_prefix_path.sh'
+[6.583s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/followme_drone/lib'
+[6.583s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/followme_drone/bin'
+[6.583s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/pkgconfig/followme_drone.pc'
+[6.583s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/python3.10/site-packages'
+[6.583s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/followme_drone/bin'
+[6.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/package.ps1'
+[6.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/package.dsv'
+[6.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/package.sh'
+[6.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/package.bash'
+[6.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/package.zsh'
+[6.586s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roboticist/0_Projects/tail_mate/install/followme_drone/share/colcon-core/packages/followme_drone)
+[7.816s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/turtlebot3_fake_node -- -j20 -l20
+[7.818s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/turtlebot3_fake_node
+[7.835s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[7.835s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node' for CMake module files
+[7.836s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/turtlebot3_fake_node
+[7.836s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node' for CMake config files
+[7.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[7.837s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[7.837s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[7.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[7.838s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/lib'
+[7.838s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/bin'
+[7.838s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[7.839s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/lib/python3.10/site-packages'
+[7.839s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/bin'
+[7.839s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[7.839s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[7.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[7.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[7.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[7.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[7.841s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_fake_node)
+[7.841s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node' for CMake module files
+[7.842s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node' for CMake config files
+[7.842s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_fake_node', 'cmake_prefix_path')
+[7.842s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.ps1'
+[7.843s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.dsv'
+[7.843s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/turtlebot3_fake_node/hook/cmake_prefix_path.sh'
+[7.844s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/lib'
+[7.844s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/bin'
+[7.844s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/lib/pkgconfig/turtlebot3_fake_node.pc'
+[7.844s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/lib/python3.10/site-packages'
+[7.844s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/bin'
+[7.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.ps1'
+[7.845s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.dsv'
+[7.845s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.sh'
+[7.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.bash'
+[7.846s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/turtlebot3_fake_node/package.zsh'
+[7.847s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node/share/colcon-core/packages/turtlebot3_fake_node)
+[11.968s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/turtlebot3_gazebo -- -j20 -l20
+[11.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/turtlebot3_gazebo
+[12.003s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[12.003s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo' for CMake module files
+[12.004s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/turtlebot3_gazebo
+[12.004s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo' for CMake config files
+[12.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[12.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[12.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[12.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[12.006s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/lib'
+[12.006s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/bin'
+[12.006s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[12.006s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[12.006s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/bin'
+[12.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[12.006s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[12.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[12.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[12.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[12.007s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[12.007s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[12.007s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo' for CMake module files
+[12.007s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo' for CMake config files
+[12.008s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_gazebo', 'cmake_prefix_path')
+[12.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.ps1'
+[12.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.dsv'
+[12.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/turtlebot3_gazebo/hook/cmake_prefix_path.sh'
+[12.009s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/lib'
+[12.009s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/bin'
+[12.009s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[12.009s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/lib/python3.10/site-packages'
+[12.009s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/bin'
+[12.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[12.009s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[12.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[12.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[12.010s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[12.010s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[12.010s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/roboticist/0_Projects/tail_mate/src/turtlebot3_simulations/turtlebot3_simulations' with build type 'ament_cmake'
+[12.010s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/roboticist/0_Projects/tail_mate/src/turtlebot3_simulations/turtlebot3_simulations'
+[12.010s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.010s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.019s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo:/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node:/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description:/home/roboticist/0_Projects/tail_mate/install/followme_drone:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/turtlebot3_simulations -- -j20 -l20
+[12.056s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo:/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node:/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description:/home/roboticist/0_Projects/tail_mate/install/followme_drone:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/turtlebot3_simulations -- -j20 -l20
+[12.058s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_simulations': CMAKE_PREFIX_PATH=/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo:/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node:/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description:/home/roboticist/0_Projects/tail_mate/install/followme_drone:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/turtlebot3_simulations
+[12.066s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[12.066s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations' for CMake module files
+[12.066s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_simulations' returned '0': CMAKE_PREFIX_PATH=/home/roboticist/0_Projects/tail_mate/install/turtlebot3_gazebo:/home/roboticist/0_Projects/tail_mate/install/turtlebot3_fake_node:/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description:/home/roboticist/0_Projects/tail_mate/install/followme_drone:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/turtlebot3_simulations
+[12.066s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations' for CMake config files
+[12.066s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[12.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[12.067s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[12.067s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[12.067s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/bin'
+[12.067s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[12.067s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/lib/python3.10/site-packages'
+[12.067s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/bin'
+[12.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[12.068s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[12.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[12.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[12.068s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[12.069s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[12.069s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_simulations)
+[12.069s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations' for CMake module files
+[12.069s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations' for CMake config files
+[12.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_simulations', 'cmake_prefix_path')
+[12.069s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.ps1'
+[12.070s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.dsv'
+[12.070s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/turtlebot3_simulations/hook/cmake_prefix_path.sh'
+[12.070s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/bin'
+[12.070s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/lib/pkgconfig/turtlebot3_simulations.pc'
+[12.070s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/lib/python3.10/site-packages'
+[12.070s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/bin'
+[12.070s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/turtlebot3_simulations/package.ps1'
+[12.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/turtlebot3_simulations/package.dsv'
+[12.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/turtlebot3_simulations/package.sh'
+[12.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/turtlebot3_simulations/package.bash'
+[12.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/turtlebot3_simulations/package.zsh'
+[12.071s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roboticist/0_Projects/tail_mate/install/turtlebot3_simulations/share/colcon-core/packages/turtlebot3_simulations)
+[25.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description -- -j20 -l20
+[25.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description
+[25.310s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_description)
+[25.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description
+[25.311s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description' for CMake module files
+[25.311s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description' for CMake config files
+[25.311s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'cmake_prefix_path')
+[25.311s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.ps1'
+[25.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.dsv'
+[25.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.sh'
+[25.312s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/lib'
+[25.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'ld_library_path_lib')
+[25.312s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.ps1'
+[25.312s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.dsv'
+[25.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.sh'
+[25.313s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/bin'
+[25.313s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/lib/pkgconfig/sjtu_drone_description.pc'
+[25.313s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/lib/python3.10/site-packages'
+[25.313s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/bin'
+[25.313s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/package.ps1'
+[25.313s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv'
+[25.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/package.sh'
+[25.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/package.bash'
+[25.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/package.zsh'
+[25.314s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/colcon-core/packages/sjtu_drone_description)
+[25.314s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sjtu_drone_description)
+[25.315s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description' for CMake module files
+[25.315s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description' for CMake config files
+[25.315s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'cmake_prefix_path')
+[25.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.ps1'
+[25.315s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.dsv'
+[25.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/hook/cmake_prefix_path.sh'
+[25.316s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/lib'
+[25.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('sjtu_drone_description', 'ld_library_path_lib')
+[25.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.ps1'
+[25.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.dsv'
+[25.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/hook/ld_library_path_lib.sh'
+[25.316s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/bin'
+[25.316s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/lib/pkgconfig/sjtu_drone_description.pc'
+[25.317s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/lib/python3.10/site-packages'
+[25.317s] Level 1:colcon.colcon_core.environment:checking '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/bin'
+[25.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/package.ps1'
+[25.317s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv'
+[25.317s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/package.sh'
+[25.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/package.bash'
+[25.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/package.zsh'
+[25.318s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/colcon-core/packages/sjtu_drone_description)
+[25.318s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.318s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.318s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[25.318s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.323s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.323s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.323s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.355s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.355s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roboticist/0_Projects/tail_mate/install/local_setup.ps1'
+[25.356s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/roboticist/0_Projects/tail_mate/install/_local_setup_util_ps1.py'
+[25.357s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roboticist/0_Projects/tail_mate/install/setup.ps1'
+[25.358s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roboticist/0_Projects/tail_mate/install/local_setup.sh'
+[25.359s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/roboticist/0_Projects/tail_mate/install/_local_setup_util_sh.py'
+[25.360s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roboticist/0_Projects/tail_mate/install/setup.sh'
+[25.361s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roboticist/0_Projects/tail_mate/install/local_setup.bash'
+[25.361s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roboticist/0_Projects/tail_mate/install/setup.bash'
+[25.363s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/roboticist/0_Projects/tail_mate/install/local_setup.zsh'
+[25.363s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/roboticist/0_Projects/tail_mate/install/setup.zsh'

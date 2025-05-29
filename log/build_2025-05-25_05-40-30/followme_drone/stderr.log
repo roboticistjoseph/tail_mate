@@ -1,0 +1,9 @@
+/home/roboticist/0_Projects/tail_mate/src/followme_drone/scripts/multi_waypoints.cpp: In instantiation of ‘[01m[Kvoid SecurityPatrol::handleResult(const auto:60&) [with auto:60 = rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateThroughPoses>::WrappedResult][m[K’:
+[01m[K/home/roboticist/0_Projects/tail_mate/src/followme_drone/scripts/multi_waypoints.cpp:52:29:[m[K   required from here
+[01m[K/home/roboticist/0_Projects/tail_mate/src/followme_drone/scripts/multi_waypoints.cpp:84:9:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUNKNOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+   84 |         [01;35m[Kswitch[m[K (result.code) {
+      |         [01;35m[K^~~~~~[m[K
+[01m[K/home/roboticist/0_Projects/tail_mate/src/followme_drone/scripts/tb3_follower.cpp:[m[K In constructor ‘[01m[Kcamera_subscriber::camera_subscriber()[m[K’:
+[01m[K/home/roboticist/0_Projects/tail_mate/src/followme_drone/scripts/tb3_follower.cpp:17:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kvelocity_msg[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |         auto [01;35m[Kvelocity_msg[m[K = geometry_msgs::msg::Twist();
+      |              [01;35m[K^~~~~~~~~~~~[m[K

@@ -1,0 +1,30 @@
+[0.028s] Invoking command in '/home/roboticist/0_Projects/tail_mate/build/followme_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/followme_drone -- -j20 -l20
+[0.505s] [35m[1mConsolidate compiler generated dependencies of target tb3_nav_node[0m
+[0.505s] [ 33%] Built target tb3_follower
+[0.505s] [ 50%] [32mBuilding CXX object CMakeFiles/tb3_nav_node.dir/scripts/multi_waypoints.cpp.o[0m
+[0.505s] [ 83%] Built target drive_node
+[1.516s] [01m[K/home/roboticist/0_Projects/tail_mate/src/followme_drone/scripts/multi_waypoints.cpp:83:29:[m[K [01;35m[Kwarning: [m[Kuse of ‘[01m[Kauto[m[K’ in parameter declaration only available with ‘[01m[K-std=c++20[m[K’ or ‘[01m[K-fconcepts[m[K’
+[1.516s]    83 |     void handleResult(const [01;35m[Kauto[m[K &result) {
+[1.516s]       |                             [01;35m[K^~~~[m[K
+[1.635s] /home/roboticist/0_Projects/tail_mate/src/followme_drone/scripts/multi_waypoints.cpp: In instantiation of ‘[01m[Kvoid SecurityPatrol::handleResult(const auto:40&) [with auto:40 = rclcpp_action::ClientGoalHandle<nav2_msgs::action::NavigateThroughPoses>::WrappedResult][m[K’:
+[1.635s] [01m[K/home/roboticist/0_Projects/tail_mate/src/followme_drone/scripts/multi_waypoints.cpp:52:29:[m[K   required from here
+[1.635s] [01m[K/home/roboticist/0_Projects/tail_mate/src/followme_drone/scripts/multi_waypoints.cpp:84:9:[m[K [01;35m[Kwarning: [m[Kenumeration value ‘[01m[KUNKNOWN[m[K’ not handled in switch [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wswitch-Wswitch]8;;[m[K]
+[1.635s]    84 |         [01;35m[Kswitch[m[K (result.code) {
+[1.636s]       |         [01;35m[K^~~~~~[m[K
+[4.235s] [100%] [32m[1mLinking CXX executable tb3_nav_node[0m
+[4.574s] [100%] Built target tb3_nav_node
+[4.583s] Invoked command in '/home/roboticist/0_Projects/tail_mate/build/followme_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/followme_drone -- -j20 -l20
+[4.585s] Invoking command in '/home/roboticist/0_Projects/tail_mate/build/followme_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/followme_drone
+[4.591s] -- Install configuration: ""
+[4.592s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/drive_node
+[4.592s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/tb3_follower
+[4.592s] -- Installing: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/tb3_nav_node
+[4.594s] -- Set runtime path of "/home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/tb3_nav_node" to ""
+[4.594s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/single_goal_nav.py
+[4.594s] [31mCMake Error at cmake_install.cmake:110 (file):
+[4.594s]   file INSTALL cannot find
+[4.594s]   "/home/roboticist/0_Projects/tail_mate/src/followme_drone/scripts/multi_waypoints.py":
+[4.594s]   No such file or directory.
+[4.594s] 
+[4.594s] [0m
+[4.596s] Invoked command in '/home/roboticist/0_Projects/tail_mate/build/followme_drone' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/followme_drone

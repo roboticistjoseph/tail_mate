@@ -1,0 +1,57 @@
+[0.030s] Invoking command in '/home/roboticist/0_Projects/tail_mate/build/followme_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/followme_drone -- -j20 -l20
+[0.405s] [ 33%] Built target drive_node
+[0.405s] [ 50%] [32mBuilding CXX object CMakeFiles/tb3_follower.dir/scripts/tb3_follower.cpp.o[0m
+[0.406s] [ 83%] Built target tb3_nav_node
+[2.374s] [01m[K/home/roboticist/0_Projects/tail_mate/src/followme_drone/scripts/tb3_follower.cpp:[m[K In constructor ‘[01m[Kcamera_subscriber::camera_subscriber()[m[K’:
+[2.374s] [01m[K/home/roboticist/0_Projects/tail_mate/src/followme_drone/scripts/tb3_follower.cpp:17:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kvelocity_msg[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[2.374s]    17 |         auto [01;35m[Kvelocity_msg[m[K = geometry_msgs::msg::Twist();
+[2.374s]       |              [01;35m[K^~~~~~~~~~~~[m[K
+[7.677s] [100%] [32m[1mLinking CXX executable tb3_follower[0m
+[8.299s] [100%] Built target tb3_follower
+[8.308s] Invoked command in '/home/roboticist/0_Projects/tail_mate/build/followme_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/followme_drone -- -j20 -l20
+[8.309s] Invoking command in '/home/roboticist/0_Projects/tail_mate/build/followme_drone': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/followme_drone
+[8.315s] -- Install configuration: ""
+[8.315s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/drive_node
+[8.315s] -- Installing: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/tb3_follower
+[8.318s] -- Set runtime path of "/home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/tb3_follower" to ""
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/tb3_nav_node
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/single_goal_nav.py
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/lib/followme_drone/multi_waypointspython.py
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//config
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//config/turtlebot3_lds_2d.lua
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch/mapping.launch.py
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch/followme_drone.launch.py
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch/navigation.launch.py
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch/spy_drone.launch.py
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch/p1_b_tb3_drone_gazebo.launch.py
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//launch/navigation.launch copy.py
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//maps
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//maps/tb3_map.yaml
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//maps/tb3_map.pgm
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//nav2
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//nav2/tb3_nav2_params.yaml
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//rviz
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//rviz/navigation.rviz
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//rviz/mapping.rviz
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//worlds
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//worlds/laboratory.world
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//worlds/museum.world
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//worlds/empty.world
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone//worlds/office_cpr.world
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/ament_index/resource_index/package_run_dependencies/followme_drone
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/ament_index/resource_index/parent_prefix_path/followme_drone
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/environment/ament_prefix_path.sh
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/environment/ament_prefix_path.dsv
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/environment/path.sh
+[8.319s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/environment/path.dsv
+[8.320s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/local_setup.bash
+[8.320s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/local_setup.sh
+[8.320s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/local_setup.zsh
+[8.320s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/local_setup.dsv
+[8.320s] -- Installing: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/package.dsv
+[8.320s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/ament_index/resource_index/packages/followme_drone
+[8.320s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/cmake/followme_droneConfig.cmake
+[8.320s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/cmake/followme_droneConfig-version.cmake
+[8.320s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/followme_drone/share/followme_drone/package.xml
+[8.322s] Invoked command in '/home/roboticist/0_Projects/tail_mate/build/followme_drone' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/followme_drone

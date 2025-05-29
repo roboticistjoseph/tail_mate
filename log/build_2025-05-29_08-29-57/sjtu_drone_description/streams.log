@@ -1,0 +1,51 @@
+[0.342s] Invoking command in '/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description -- -j20 -l20
+[0.403s] [ 25%] [32mBuilding CXX object CMakeFiles/plugin_drone.dir/src/plugin_drone.cpp.o[0m
+[0.405s] [ 50%] [32mBuilding CXX object CMakeFiles/plugin_drone.dir/src/plugin_drone_private.cpp.o[0m
+[0.405s] [ 75%] [32mBuilding CXX object CMakeFiles/plugin_drone.dir/src/pid_controller.cpp.o[0m
+[23.282s] [100%] [32m[1mLinking CXX shared library /home/roboticist/0_Projects/tail_mate/src/sjtu_drone/sjtu_drone_description/plugins/libplugin_drone.so[0m
+[24.849s] [100%] Built target plugin_drone
+[24.857s] Invoked command in '/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description -- -j20 -l20
+[24.859s] Invoking command in '/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description
+[24.866s] -- Install configuration: ""
+[24.866s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/include
+[24.866s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/include/sjtu_drone_description
+[24.866s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/include/sjtu_drone_description/pid_controller.h
+[24.866s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/include/sjtu_drone_description/plugin_drone_private.h
+[24.866s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/include/sjtu_drone_description/plugin_drone.h
+[24.866s] -- Installing: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/lib/libplugin_drone.so
+[24.881s] -- Set runtime path of "/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/lib/libplugin_drone.so" to ""
+[24.881s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.sh
+[24.882s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/environment/library_path.dsv
+[24.882s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/models
+[24.882s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone
+[24.882s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.stl
+[24.882s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/model.config
+[24.882s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/quadrotor_4.dae
+[24.882s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/models/sjtu_drone/sjtu_drone.sdf
+[24.882s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/models/database.config
+[24.882s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/urdf
+[24.882s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf.xacro
+[24.882s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/urdf/sjtu_drone.urdf
+[24.882s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/worlds
+[24.882s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/worlds/playground.world
+[24.883s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/ament_index/resource_index/package_run_dependencies/sjtu_drone_description
+[24.883s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/ament_index/resource_index/parent_prefix_path/sjtu_drone_description
+[24.883s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.sh
+[24.883s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/environment/ament_prefix_path.dsv
+[24.883s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.sh
+[24.883s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/environment/path.dsv
+[24.883s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.bash
+[24.883s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.sh
+[24.883s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.zsh
+[24.883s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/local_setup.dsv
+[24.883s] -- Installing: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/package.dsv
+[24.884s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/ament_index/resource_index/packages/sjtu_drone_description
+[24.885s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport.cmake
+[24.885s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/cmake/export_sjtu_drone_descriptionExport-noconfig.cmake
+[24.885s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_include_directories-extras.cmake
+[24.885s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_libraries-extras.cmake
+[24.885s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/cmake/ament_cmake_export_targets-extras.cmake
+[24.885s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig.cmake
+[24.885s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/cmake/sjtu_drone_descriptionConfig-version.cmake
+[24.885s] -- Up-to-date: /home/roboticist/0_Projects/tail_mate/install/sjtu_drone_description/share/sjtu_drone_description/package.xml
+[24.887s] Invoked command in '/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_control:/home/roboticist/0_Projects/tail_mate/install/sjtu_drone_bringup:/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description

@@ -1,0 +1,8 @@
+In file included from [01m[K/home/roboticist/0_Projects/tail_mate/src/followme_drone/scripts/drone_patrol_controller.cpp:1[m[K:
+[01m[K/home/roboticist/0_Projects/tail_mate/src/followme_drone/scripts/../include/drone_patrol_controller.hpp:14:10:[m[K [01;31m[Kfatal error: [m[Knav_msgs/msg/odometry.hpp: No such file or directory
+   14 | #include [01;31m[K"nav_msgs/msg/odometry.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/drone_patrol_controller.dir/build.make:76: CMakeFiles/drone_patrol_controller.dir/scripts/drone_patrol_controller.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/drone_patrol_controller.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
