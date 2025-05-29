@@ -1,1 +1,0 @@
-Invoking command in '/home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/sjtu_drone_description -- -j20 -l20

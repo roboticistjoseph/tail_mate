@@ -12,7 +12,7 @@ public:
     : Node("orb_tracker_node")
     {
         std::string pkg_share_dir = ament_index_cpp::get_package_share_directory("followme_drone");
-        std::string ref_image_path = pkg_share_dir + "/ref_img/tb3_cam_view.png";
+        std::string ref_image_path = pkg_share_dir + "/ref_img/tb3_white_cam_view.png";
         // Load reference image of TurtleBot (grayscale)
         //std::string ref_image_path = "/ref_img/tb3_cam_view.png";
         ref_img_ = cv::imread(ref_image_path, cv::IMREAD_GRAYSCALE);

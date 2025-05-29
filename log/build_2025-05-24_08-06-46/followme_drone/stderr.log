@@ -1,6 +1,0 @@
-[31mCMake Error at cmake_install.cmake:74 (file):
-  file INSTALL cannot find
-  "/home/roboticist/0_Projects/tail_mate/src/followme_drone/configs": No such
-  file or directory.
-
-[0m

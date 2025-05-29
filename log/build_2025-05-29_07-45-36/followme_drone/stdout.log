@@ -1,4 +1,0 @@
-[ 25%] Built target tb3_follower
-[ 37%] [32mBuilding CXX object CMakeFiles/drone_patrol_controller.dir/scripts/drone_patrol_controller.cpp.o[0m
-[ 62%] Built target drive_node
-[ 87%] Built target tb3_nav_node

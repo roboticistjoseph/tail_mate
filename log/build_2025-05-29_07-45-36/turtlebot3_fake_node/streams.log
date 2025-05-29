@@ -1,4 +1,0 @@
-[0.030s] Invoking command in '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/turtlebot3_fake_node -- -j20 -l20
-[0.506s] [100%] Built target turtlebot3_fake_node
-[0.525s] Invoked command in '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/roboticist/0_Projects/tail_mate/build/turtlebot3_fake_node -- -j20 -l20
-[0.525s] Invoking command in '/home/roboticist/0_Projects/tail_mate/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/roboticist/0_Projects/tail_mate/build/turtlebot3_fake_node
