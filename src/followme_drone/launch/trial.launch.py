@@ -53,7 +53,7 @@ def generate_launch_description():
                 parameters=[
                     {'drone_namespace': f"/{drone['name']}"},
                     {'patrol_height': 1.0},  # Example parameter
-                    # Add more patrol params as needed
+                    # Space for Adding more patrol params as needed
                 ]
             )
         )

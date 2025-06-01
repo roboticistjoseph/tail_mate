@@ -1,31 +1,44 @@
+/**
+ * @file contour_detection.cpp
+ * @author Joseph Katakam (jkatak73@terpmail.umd.edu)
+ * @brief ROS2 node that subscribes to a drone's camera feed,
+ *        detects white "contours" (specified bountary area) in the image, and publishes velocity commands
+ *        to follow the largest detected contour.
+ * @version 0.1
+ * @date 2024-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
+// including header files
 #include "rclcpp/rclcpp.hpp"
 #include "sensor_msgs/msg/image.hpp"
 #include "geometry_msgs/msg/twist.hpp"
 #include "cv_bridge/cv_bridge.h"
 #include "opencv2/opencv.hpp"
 
-class CameraSubscriber : public rclcpp::Node
-{
-public:
-    CameraSubscriber()
-    : Node("camera_subscriber_node")
-    {
+/**
+ * @brief ContourDetection class
+ * 
+ */
+class ContourDetection : public rclcpp::Node {
+ public:
+    ContourDetection() : Node("camera_subscriber_node") {
         subscription_ = this->create_subscription<sensor_msgs::msg::Image>(
             "/simple_drone/bottom/image_raw", 10,
-            std::bind(&CameraSubscriber::camera_callback, this, std::placeholders::_1));
+            std::bind(&ContourDetection::camera_callback, this, std::placeholders::_1));
 
         publisher_ = this->create_publisher<geometry_msgs::msg::Twist>("/simple_drone/cmd_vel", 10);
 
-        RCLCPP_INFO(this->get_logger(), "------ Node Started -----");
+        RCLCPP_INFO(this->get_logger(), "------ Contours Node Started -----");
     }
 
-private:
+ private:
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr subscription_;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
     geometry_msgs::msg::Twist velocity_msg_;
 
-    void camera_callback(const sensor_msgs::msg::Image::SharedPtr camera_msg)
-    {
+    void camera_callback(const sensor_msgs::msg::Image::SharedPtr camera_msg){
         cv_bridge::CvImagePtr cv_ptr;
         try {
             cv_ptr = cv_bridge::toCvCopy(camera_msg, "bgr8");
@@ -87,15 +100,14 @@ private:
 
         publisher_->publish(velocity_msg_);
 
-        cv::imshow("Drone Camera View", cv_ptr->image);
+        cv::imshow("Contour Detection", cv_ptr->image);
         cv::waitKey(1);
     }
 };
 
-int main(int argc, char** argv)
-{
+int main(int argc, char** argv) {
     rclcpp::init(argc, argv);
-    auto node = std::make_shared<CameraSubscriber>();
+    auto node = std::make_shared<ContourDetection>();
     rclcpp::spin(node);
     rclcpp::shutdown();
     return 0;

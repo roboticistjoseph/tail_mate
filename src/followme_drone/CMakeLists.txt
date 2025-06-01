@@ -11,6 +11,9 @@ endif()
 # --- C+++ dependencies ---
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(rclcpp_action REQUIRED)
+find_package(nav2_msgs REQUIRED)
+find_package(nav2_util REQUIRED)
 # --- Drone dependencies ---
 find_package(geometry_msgs REQUIRED)
 find_package(sensor_msgs REQUIRED)
@@ -22,34 +25,34 @@ find_package(nav_msgs REQUIRED)
 find_package(nav2_msgs REQUIRED)
 find_package(nav2_util REQUIRED)
 
-# Adding Dependencies
-
-
-add_executable(drive_node scripts/drive_node.cpp)
-ament_target_dependencies(drive_node rclcpp geometry_msgs)
-
+# Adding Executables
 add_executable(drone_patrol_controller scripts/drone_patrol_controller.cpp)
 ament_target_dependencies(drone_patrol_controller rclcpp geometry_msgs)
 
-add_executable(tb3_follower scripts/tb3_follower.cpp)
-ament_target_dependencies(tb3_follower rclcpp sensor_msgs cv_bridge)
-target_link_libraries(tb3_follower ${OpenCV_LIBS})
+add_executable(drone_motion_controller scripts/drone_motion_controller.cpp)
+ament_target_dependencies(drone_motion_controller rclcpp geometry_msgs)
 
-add_executable(tb3_nav_node scripts/multi_waypoints.cpp)
-ament_target_dependencies(tb3_nav_node rclcpp geometry_msgs nav2_msgs nav2_util)
+add_executable(drone_detection_node scripts/drone_aruco_tracking.cpp)
+ament_target_dependencies(drone_detection_node rclcpp sensor_msgs cv_bridge)
+target_link_libraries(drone_detection_node ${OpenCV_LIBS})
 
-# add_executable(followme_drone_node scripts/followme_drone_node.cpp)
-# ament_target_dependencies(followme_drone_node rclcpp geometry_msgs sensor_msgs cv_bridge)
-# target_link_libraries(followme_drone_node ${OpenCV_LIBS})
+add_executable(tb3_nav_node scripts/waypoint_navigation.cpp)
+ament_target_dependencies(tb3_nav_node 
+  rclcpp
+  rclcpp_action
+  geometry_msgs 
+  nav2_msgs
+  nav2_util
+)
 
 # Install the executable
-install(TARGETS drive_node tb3_follower tb3_nav_node drone_patrol_controller
+install(TARGETS drone_patrol_controller drone_motion_controller drone_detection_node tb3_nav_node
   DESTINATION lib/${PROJECT_NAME})
 
-install(PROGRAMS scripts/single_goal_nav.py
+install(PROGRAMS scripts/nav_scripts_python/single_point_nav.py
         DESTINATION lib/${PROJECT_NAME})
 
-install(PROGRAMS scripts/multi_waypointspython.py
+install(PROGRAMS scripts/nav_scripts_python/waypoint_nav.py
 DESTINATION lib/${PROJECT_NAME})
 
 
@@ -57,7 +60,6 @@ DESTINATION lib/${PROJECT_NAME})
 install(DIRECTORY config launch maps nav2 rviz worlds scripts/ref_img
   DESTINATION share/${PROJECT_NAME}/
 )
-
 
 
 if(BUILD_TESTING)

@@ -1,3 +1,16 @@
+/**
+ * @file orb_detection.cpp
+ * @author Joseph Katakam (jkatak73@terpmail.umd.edu)
+ * @brief ROS2 node that subscribes to a drone's bottom camera feed,
+ *        detects the TurtleBot using ORB feature matching, and publishes velocity commands
+ *        to follow the TurtleBot.
+ * @version 0.1
+ * @date 2024-05-31
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
+// including header files
 #include "rclcpp/rclcpp.hpp"
 #include "sensor_msgs/msg/image.hpp"
 #include "geometry_msgs/msg/twist.hpp"
@@ -5,16 +18,13 @@
 #include "opencv2/opencv.hpp"
 #include "ament_index_cpp/get_package_share_directory.hpp"
 
-class ORBTrackerNode : public rclcpp::Node
-{
-public:
-    ORBTrackerNode()
-    : Node("orb_tracker_node")
-    {
+class ORBTrackerNode : public rclcpp::Node {
+ public:
+    ORBTrackerNode() : Node("orb_tracker_node") {
+        // Load reference image of TurtleBot (grayscale)
         std::string pkg_share_dir = ament_index_cpp::get_package_share_directory("followme_drone");
         std::string ref_image_path = pkg_share_dir + "/ref_img/tb3_white_cam_view.png";
-        // Load reference image of TurtleBot (grayscale)
-        //std::string ref_image_path = "/ref_img/tb3_cam_view.png";
+
         ref_img_ = cv::imread(ref_image_path, cv::IMREAD_GRAYSCALE);
         if (ref_img_.empty()) {
             RCLCPP_ERROR(this->get_logger(), "Failed to load reference image from %s", ref_image_path.c_str());
@@ -45,7 +55,7 @@ public:
         RCLCPP_INFO(this->get_logger(), "ORB Tracker Node started");
     }
 
-private:
+ private:
     rclcpp::Subscription<sensor_msgs::msg::Image>::SharedPtr subscription_;
     rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
 
@@ -57,8 +67,7 @@ private:
 
     geometry_msgs::msg::Twist velocity_msg_;
 
-    void image_callback(const sensor_msgs::msg::Image::SharedPtr msg)
-    {
+    void image_callback(const sensor_msgs::msg::Image::SharedPtr msg) {
         cv_bridge::CvImagePtr cv_ptr;
         try {
             cv_ptr = cv_bridge::toCvCopy(msg, "bgr8");
@@ -125,9 +134,10 @@ private:
                         cv::Scalar::all(-1), cv::Scalar::all(-1),
                         std::vector<char>(), cv::DrawMatchesFlags::NOT_DRAW_SINGLE_POINTS);
 
-        cv::circle(img_matches, centroid + cv::Point2f((float)ref_img_.cols, 0), 5, cv::Scalar(0, 0, 255), -1);
+        cv::circle(img_matches, centroid + cv::Point2f(static_cast<float>(ref_img_.cols), 0),
+                    5, cv::Scalar(0, 0, 255), -1);
 
-        cv::imshow("ORB Matches", img_matches);
+        cv::imshow("ORB Detection", img_matches);
         cv::waitKey(1);
 
         // Calculate error relative to image center
@@ -146,8 +156,7 @@ private:
     }
 };
 
-int main(int argc, char** argv)
-{
+int main(int argc, char** argv) {
     rclcpp::init(argc, argv);
     auto node = std::make_shared<ORBTrackerNode>();
     rclcpp::spin(node);
